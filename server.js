@@ -28,6 +28,6 @@ app.get('/', (req, res) => {
 })
 
 // tell the server what port to listen on
-app.listen(3000, () => {
+app.listen(8080, "0.0.0.0", () => {
   console.log('Listening on localhost:3000')
 })
